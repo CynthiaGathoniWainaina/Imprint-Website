@@ -1808,6 +1808,7 @@ i:before {
 ============================================================================================ */
 .portfolio_area {
   border-bottom: 2px solid #fff;
+  padding: 0 100px 0 100px;
 }
 
 .portfolio_filter {
