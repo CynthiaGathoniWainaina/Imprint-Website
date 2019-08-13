@@ -341,6 +341,7 @@ i:before {
 /*----------------------------------------------------*/
 /* Banner Area css
 ============================================================================================ */
+
 .banner_area_aboutus {
   position: relative;
   z-index: 3;
@@ -622,7 +623,7 @@ i:before {
 /* Feature Area css
 ============================================================================================ */
 .feature_area {
-  padding-top: 170px;
+  padding-top: 50px;
 }
 
 .feature_item {
@@ -726,7 +727,7 @@ i:before {
 ============================================================================================ */
 .team_people_area {
   overflow: hidden;
-  padding-top: 90px;
+  padding-top: 0;
 }
 
 .team_people_text {
@@ -1178,24 +1179,26 @@ i:before {
 /* Best 3d Area css
 ============================================================================================ */
 .best_3d_area {
+  background: url(../img/gol-01.png) no-repeat scroll center center;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 887px;
+  max-width: 1600px;
+  min-height: 608px;
   padding-top: 20px;
 }
 
 .best_3d_area .left_3d {
-  background: url(../img/goliath-01.png) no-repeat scroll center center;
+  /*background: url(../img/goliath-01.png) no-repeat scroll center center;*/
   width: calc(50% - 100px);
   float: left;
   position: relative;
 }
 
 .best_3d_area .left_3d:before {
-  content: "";
-  background: url(../img/goliath-01.png) no-repeat scroll center center;
+  /*content: "";*/
+  /*background: url(../img/goliath-01.png) no-repeat scroll center center;*/
   background-size: cover;
   min-height: 100%;
   position: absolute;
