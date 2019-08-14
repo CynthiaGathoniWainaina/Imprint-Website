@@ -87,6 +87,32 @@
         display: none;
     }
 }
+@media (max-width: 1167px){
+    .main_slider_area {
+        background: url(../img/home-slider/slider-bg-1.gif) no-repeat scroll top right;
+        background-size: 100%;
+    }
+    .banner_area_aboutus:before {
+        background: url(../img/banner/aboutus-01.png) no-repeat scroll top right;
+        background-size: 100%;
+    }
+    .banner_area_service:before {
+        background: url(../img/banner/serv-01.png) no-repeat scroll top right;
+        background-size: 100%;
+    }
+    .banner_area_clients:before {
+        background: url(../img/banner/client-01.png) no-repeat scroll top right;
+        background-size: 100%;
+    }
+    .banner_area_contact:before {
+        background: url(../img/banner/contact-01.png) no-repeat scroll top right;
+        background-size: 100%;
+    }
+    .best_3d_area {
+        background: url(../img/gol-01.png) no-repeat scroll center center;
+        background-size: 100%;
+    }
+}
 @media (max-width: 991px){
     .main_menu_area {
         padding: 0px 0px;

@@ -125,7 +125,8 @@ i:before {
 }
 
 .l_title {
-  padding-bottom: 55px;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }
 
 .l_title img {
@@ -322,7 +323,7 @@ i:before {
 }
 
 .nav-pills li a.active{
-  background: none;
+  background: transparent !important;
   color: #F28500 !important;
 }
 
@@ -620,7 +621,7 @@ i:before {
 
 .feature_item {
   text-align: center;
-  padding: 40px 0px 80px 0px;
+  padding: 50px 0px 80px 0px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -674,7 +675,7 @@ i:before {
 
 .service_feature {
   border-bottom: 1px solid #bbbec1;
-  padding-top: 200px;
+  padding-top: 100px;
   overflow: hidden;
 }
 
@@ -1631,11 +1632,13 @@ i:before {
 ============================================================================================ */
 .contact_map_area {
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .contact_map_area .mapBox1 {
-  min-height: 670px;
+  height: 670px;
+  overflow-x: scroll;
+
 }
 
 .contact_map_area .map_location_box {
@@ -1843,6 +1846,7 @@ i:before {
 }
 
 .ms_portfolio_inner .ms_p_item {
+  min-width: 70px;
   float: left;
 }
 

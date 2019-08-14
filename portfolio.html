@@ -34,8 +34,8 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
-        
+    <body data-spy="scroll" data-target=".navbar">
+
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,11 +47,11 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav-pills">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Our Clients</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html" data-target=".banner_area_clients">Our Clients</a></li>
                         <!--                        <li class="nav-item dropdown submenu">-->
                         <!--                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
                         <!--                            Blog-->
@@ -82,17 +82,17 @@
         
         <!--================Portfolio Area =================-->
         <section class="portfolio_area">
-            <div class="container">
-                <div class="portfolio_filter">
-<!--                    <ul>-->
-<!--                        <li class="active" data-filter="*"><a href="#">All</a></li>-->
-<!--                        <li data-filter=".brand"><a href="#">Brand identity</a></li>-->
-<!--                        <li data-filter=".design"><a href="#">Design</a></li>-->
-<!--                        <li data-filter=".arc"><a href="#">Architecture</a></li>-->
-<!--                        <li data-filter=".photo"><a href="#">Photography</a></li>-->
-<!--                    </ul>-->
-                </div>
-            </div>
+<!--            <div class="container">-->
+<!--                <div class="portfolio_filter">-->
+<!--&lt;!&ndash;                    <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li class="active" data-filter="*"><a href="#">All</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".brand"><a href="#">Brand identity</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".design"><a href="#">Design</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".arc"><a href="#">Architecture</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li data-filter=".photo"><a href="#">Photography</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </ul>&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="ms_portfolio_inner">
                 <div class="ms_p_item wd_25 brand arc photo">
                     <a href="https://www.tbnetwork.org/" target="_blank">
@@ -102,16 +102,15 @@
                     <a href="https://ke.endasportswear.com/" target="_blank">
                         <img src="img/portfolio/ms-portfolio/ms-p-2.jpg" alt=""></a>
                 </div>
-                <div class="ms_p_item wd_25 brand">
-                    <a href="https://www.medkitsglobal.com/" target="_blank">
-                        <img src="img/portfolio/ms-portfolio/ms-p-3.jpg" alt=""></a>
-                </div>
+
                 <div class="ms_p_item wd_25 brand arc photo">
                     <a href="http://crystal-tours.com/" target="_blank">
                         <img src="img/portfolio/ms-portfolio/ms-p-4.jpg" alt=""></a>
                 </div>
-                <div class="ms_p_item wd_25 brand arc photo">
-                    <img src="img/portfolio/ms-portfolio/ms-p-5.jpg" alt="">
+
+                <div class="ms_p_item wd_25 design arc">
+                    <a href="https://msurvey.co/" target="_blank">
+                        <img src="img/portfolio/ms-portfolio/ms-p-10.jpg" alt=""></a>
                 </div>
                 <div class="ms_p_item wd_25">
                     <a href="http://adriankenya.com/index.html" target="_blank">
@@ -124,14 +123,18 @@
                     <a href="https://wazawazi.co.ke/" target="_blank">
                         <img src="img/portfolio/ms-portfolio/ms-p-8.jpg" alt=""></a>
                 </div>
+                <div class="ms_p_item wd_25 brand arc photo">
+                    <img src="img/portfolio/ms-portfolio/ms-p-5.jpg" alt="">
+                </div>
+                <div class="ms_p_item wd_25 brand">
+                    <a href="https://www.medkitsglobal.com/" target="_blank">
+                        <img src="img/portfolio/ms-portfolio/ms-p-3.jpg" alt=""></a>
+                </div>
                 <div class="ms_p_item wd_25 design arc">
                     <a href="https://www.vavacoffeeinc.com/" target="_blank">
                         <img src="img/portfolio/ms-portfolio/ms-p-9.jpg" alt=""></a>
                 </div>
-                <div class="ms_p_item wd_25 design arc">
-                    <a href="https://msurvey.co/" target="_blank">
-                        <img src="img/portfolio/ms-portfolio/ms-p-10.jpg" alt=""></a>
-                </div>
+
             </div>
         </section>
         <!--================End Portfolio Area =================-->
@@ -144,7 +147,8 @@
                         <div class="col-lg-4 col-sm-6">
                             <aside class="f_widget f_about_widget">
                                 <h6 style="color: #f5f5f5">Imprint Africa</h6>
-                                <p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum.</p>
+                                <p>WE PITCH IT, FIX IT, WORK IT!
+                                </p>
                             </aside>
                         </div>
                         <div class="col-lg-4 col-sm-6">
