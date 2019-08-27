@@ -184,13 +184,15 @@ i:before {
   border: none;
   border-radius: 0px;
   padding: 0px;
+  /*color: #f5f5f5;*/
 }
 
 .main_menu_area .navbar .navbar-toggler span {
   height: 3px;
   width: 25px;
   display: block;
-  background: #0b1033;
+  background: #f5f5f5;
+  /*color: #f5f5f5 !important;*/
   margin-bottom: 3px;
 }
 
@@ -198,11 +200,15 @@ i:before {
   margin-bottom: 0px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 365px) {
   .main_menu_area .navbar .navbar-collapse {
     text-align: right;
     display: block !important;
   }
+}
+
+.main_menu_area .navbar-brand img{
+    width: 10rem !important;
 }
 
 .main_menu_area .navbar .navbar-nav {
@@ -297,28 +303,28 @@ i:before {
   color: #F28500;
 }
 
-.main_menu_area.navbar_fixed {
-  position: fixed;
-  width: 100%;
-  top: -70px;
-  left: 0;
-  right: 0;
-  background: transparent;
-  /*background: rgba(0, 0, 0, 0.6);*/
-  -webkit-transform: translateY(70px);
-  -ms-transform: translateY(70px);
-  transform: translateY(70px);
-  -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
-  transition: background 500ms ease, -webkit-transform 500ms ease;
-  -o-transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease;
-  transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
-  -webkit-transition: transform 500ms ease, background 500ms ease;
-  z-index: 999999;
-}
+/*.main_menu_area.navbar_fixed {*/
+/*  position: fixed;*/
+/*  width: 100%;*/
+/*  top: -70px;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  background: transparent;*/
+/*  !*background: rgba(0, 0, 0, 0.6);*!*/
+/*  -webkit-transform: translateY(70px);*/
+/*  -ms-transform: translateY(70px);*/
+/*  transform: translateY(70px);*/
+/*  -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;*/
+/*  transition: background 500ms ease, -webkit-transform 500ms ease;*/
+/*  -o-transition: transform 500ms ease, background 500ms ease;*/
+/*  transition: transform 500ms ease, background 500ms ease;*/
+/*  transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;*/
+/*  -webkit-transition: transform 500ms ease, background 500ms ease;*/
+/*  z-index: 999999;*/
+/*}*/
 
 .main_menu_area.navbar_fixed .navbar .navbar-nav li a {
-  color: #1b1e21;
+  color: #f5f5f5;
   line-height: 70px;
 }
 
@@ -438,14 +444,15 @@ i:before {
 /* Slider css
 ============================================================================================ */
 .main_slider_area {
-  background: url(../img/home-slider/slider-bg-1.gif) no-repeat scroll center center;
+  background: url(../img/home-slider/slider-bg-1.gif) no-repeat scroll center top;
   position: relative;
-  background-size: cover;
+  background-size: 100%;
   width: 100%;
+  padding: 0 0 0 0;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .first_text {
-  font-weight: normal !important;
+  font-weight: bold !important;
   color: #0b1033;
 }
 
@@ -1172,7 +1179,8 @@ i:before {
 /* Best 3d Area css
 ============================================================================================ */
 .best_3d_area {
-  background: url(../img/gol-01.png) no-repeat scroll center center;
+  background: url(../img/gol-01.png) no-repeat scroll center bottom;
+  background-attachment: fixed;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;

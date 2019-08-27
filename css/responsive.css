@@ -95,6 +95,7 @@
     .banner_area_aboutus:before {
         background: url(../img/banner/aboutus-01.png) no-repeat scroll top right;
         background-size: 100%;
+        padding-top: 0px;
     }
     .banner_area_service:before {
         background: url(../img/banner/serv-01.png) no-repeat scroll top right;
@@ -109,8 +110,9 @@
         background-size: 100%;
     }
     .best_3d_area {
-        background: url(../img/gol-01.png) no-repeat scroll center center;
+        background: url(../img/gol-01.png) no-repeat scroll center bottom;
         background-size: 100%;
+        background-attachment: fixed;
     }
 }
 @media (max-width: 991px){
